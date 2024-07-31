@@ -1,0 +1,16 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "Team AST leads Tech Team in vedic vision bootcamp from 02-08-2024 to 13-08-24 Team AST follow up students for vedic vision Hackathon through bootcam",
+  "main": "sample.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./Javascript/functions.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
