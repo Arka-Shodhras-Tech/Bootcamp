@@ -4,7 +4,35 @@
 ->dom methods
 ->scopes
 ->variables
+    let
+    var
+    const
 ->data types
+    number
+    string
+    boolean
+    null
+    undefined
+    symbol
+    object
+        array
+        object
+        date
+->operators
+    arithmetic
+    comparison
+    logical
+->control statements
+    if
+    else
+    else if
+    switch
+->loops
+    for
+    for in
+    for of
+    while
+    do while
 ->strings
 ->arrays
 ->array methods
