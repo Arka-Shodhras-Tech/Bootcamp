@@ -4,6 +4,8 @@ let names = ['eoc', 'paie', 'sports']
 
 // console.log(names[1]);
 
+// spread operator
+
 names[2] = 'ast';
 
 // console.log(names);

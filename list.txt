@@ -33,8 +33,11 @@
     for of
     while
     do while
+
 ->strings
 ->arrays
 ->array methods
+->object methods
+->local and session storage (stringfy and parse)
 ->functions
 ->web apis
