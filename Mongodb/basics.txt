@@ -1,0 +1,44 @@
+check dbs
+    show dbs
+
+switch and create db
+    use dbname
+
+create collection 
+    db.createCollection("collection_name")
+    db.collection_name.insertOne()
+
+drop db 
+    db.dropDatabase()
+    
+drop collection
+    db.dropCollection('collection_name')
+
+insert docouments
+    db.collection_name.insertOne()
+    db.collection_name.insertMany()
+
+update docouments
+    db.collection_name.updateOne()
+    db.collection_name.updateMany()
+
+find  docouments
+    db.collection_name.findOne()
+    db.collection_name.find()
+
+delete docouments
+    db.collection_name.deleteOne()
+    db.collection_name.deleteMany()
+
+operators used in mongodb
+    $eq -> equal 
+    $ne -> noequal
+    $gt -> greaterthan
+    $lt -> lessthan
+    $gte -> greaterthan or equalto
+    $lte -> lessthan or equalto
+    $in -> exist elements in array
+    $exist -> exist elements
+    $type -> datatype
+
+
