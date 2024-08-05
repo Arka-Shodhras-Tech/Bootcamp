@@ -1,66 +1,89 @@
-// DOM element methods 
-let elementId = document.getElementById("list");
-elementId.innerHTML = "teja"
+// // DOM element methods 
+// let elementId = document.getElementById("list");
+// elementId.innerHTML = "teja"
 
-let elementclass = document.getElementsByClassName("classname")
-elementclass[0].innerHTML = "siva"
+// let elementclass = document.getElementsByClassName("classname")
+// elementclass[0].innerHTML = "siva"
 
-let bytag = document.getElementsByTagName("div")
-bytag[0].innerHTML = "srkr"
+// let bytag = document.getElementsByTagName("div")
+// bytag[0].innerHTML = "srkr"
 
-let queryall = document.querySelectorAll(".classname")[0]
-// queryall.innerHTML = "cse"
-// queryall.textContent="cse"
+// let queryall = document.querySelectorAll(".classname")[0]
+// // queryall.innerHTML = "cse"
+// // queryall.textContent="cse"
 
-let query = document.querySelector("#list")
-// query.innerHTML = localStorage.getItem("name")
-query.textContent="hello darlings.."
+// let query = document.querySelector("#list")
+// // query.innerHTML = localStorage.getItem("name")
+// query.textContent="hello darlings.."
 
-const con = document.createElement('names');
-con.innerHTML="teja"
-document.body.appendChild(con);
+// const con = document.createElement('names');
+// con.innerHTML="teja"
+// document.body.appendChild(con);
 
-queryall.setAttribute('class','newclass')
+// queryall.setAttribute('class','newclass')
 
-// query.removeAttribute('id')
+// // query.removeAttribute('id')
 
-console.log(query.getAttribute('id'))
+// console.log(query.getAttribute('id'))
 
-queryall.textContent="cse deprt"
+// queryall.textContent="cse deprt"
 
-queryall.style.fontSize="50px"
+// queryall.style.fontSize="50px"
 
-con.style.color="blue"
+// con.style.color="blue"
 
-reminder=document.getElementById("alert")
-reminder.addEventListener('click',Alert)
-// reminder.removeEventListener('click',Alert)
+// reminder=document.getElementById("alert")
+// reminder.addEventListener('click',Alert)
+// // reminder.removeEventListener('click',Alert)
 
-// add class elements
-elementclass[0].classList.add('addclass')
-elementclass[0].style.color="red"
-document.getElementsByClassName('addclass')[0].textContent="add class";
+// // add class elements
+// elementclass[0].classList.add('addclass')
+// elementclass[0].style.color="red"
+// document.getElementsByClassName('addclass')[0].textContent="add class";
 
-function Alert() {
-    // alert("hello darling..")
-    elementclass[0].classList.toggle('addclass')
-}
+// function Alert() {
+//     // alert("hello darling..")
+//     elementclass[0].classList.toggle('addclass')
+// }
 
-function Speak(){
-    Speech()
-}
+// function Speak(){
+//     Speech()
+// }
 
-elementId.requestPointerLock();
+// elementId.requestPointerLock();
 
-const removeName = () => {
-    localStorage.removeItem("name")
-}
+// const removeName = () => {
+//     localStorage.removeItem("name")
+// }
 
-const getLoc = () => {
-    Locations()
-}
+// const getLoc = () => {
+//     Locations()
+// }
 
-const Canva = () => {
-    Canvas()
-}
+// const Canva = () => {
+//     Canvas()
+// }
 
+
+
+
+// localStorage.setItem("details",JSON.stringify({name:"anil reddy"}))
+
+
+
+
+
+
+// JSON.parse(localStorage.getItem("details"))
+
+
+
+const getData = async () => {
+    await fetch("https://chatappserver-zop9.onrender.com/users")
+    .then((res)=>console.log(res))
+    .catch((e)=>console.log(e))
+  };
+  
+  // Correct way to log the data
+  getData().then(data => console.log(data)).catch(error => console.error(error));
+  

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./Javascript/objectmethods.js"
+    "dev": "nodemon sample.js"
   },
   "author": "",
   "license": "ISC",

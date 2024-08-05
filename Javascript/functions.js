@@ -21,6 +21,7 @@ console.log(add())
 
 // async function
 const Async=async()=>{return 20+40;}
+
 console.log(await Async())
 
 function Hello(mesg){

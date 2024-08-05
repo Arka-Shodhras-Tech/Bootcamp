@@ -14,6 +14,10 @@ console.log(names.replace("esw", "wse"))
 
 console.log(names[1])
 
+for(let i=0;i<names.length;i++){
+    console.log(names[i])
+}
+
 console.log(names.split(''))
 
 console.log(typeof (num))

@@ -38,6 +38,7 @@
 ->arrays
 ->array methods
 ->object methods
+
 ->local and session storage (stringfy and parse)
 ->functions
 ->web apis

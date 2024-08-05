@@ -1,6 +1,9 @@
 check dbs
     show dbs
 
+check current db
+    db
+
 switch and create db
     use dbname
 
@@ -12,7 +15,7 @@ drop db
     db.dropDatabase()
     
 drop collection
-    db.dropCollection('collection_name')
+    db.collection_name.drop()
 
 insert docouments
     db.collection_name.insertOne()
@@ -42,3 +45,11 @@ operators used in mongodb
     $type -> datatype
 
 
+[
+    { _id: 1, Name: "teja", Age: 19, Salary: 3000 },
+{ _id: 2, Name: "siva", Salary: 3200 },
+{ _id: 3, Name: "vishnu", Age :20, Salary: 3500 },
+{ _id: 4, Name: "elephant", Age :22, Salary: 3300 },
+{ _id: 5, Name: "sun", Salary: 3100 }
+
+]
