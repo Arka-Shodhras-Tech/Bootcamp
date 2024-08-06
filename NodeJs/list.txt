@@ -1,0 +1,29 @@
+structure
+
+nodejs intro
+types of modules
+npm init
+sample connection
+build-in modules
+like  create
+      open
+      read
+      write
+      delete
+      close
+    
+import and export keyword
+
+mongodb connection
+
+
+
+------------>Frontend
+
+------------>Backend
+                --->src
+                    --->db
+                    --->server
+                --->package.json
+                --->package-lock.json
+                --->Node Modules
