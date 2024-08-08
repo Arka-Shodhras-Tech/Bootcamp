@@ -1,0 +1,37 @@
+components
+    jsx
+    functional components
+    props
+    events
+    react router
+    conditinal rendering
+    closures
+
+basic hooks
+    usestate
+    useeffect
+    usecontext
+
+styling 
+    chakra ui
+
+API calls
+    Rest
+        axios
+        fetch
+
+-->react intro
+    create react app
+    jsx
+    functional components
+    events
+    chakra ui
+    usestate
+    useeffect
+    props
+    conditinal rendering
+    closures
+    fetch
+    axios
+    react router
+    usecontext
